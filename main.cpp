@@ -42,5 +42,5 @@ int main(void)
   });
 
 
-  svr.listen("localhost", 80);
+  svr.listen("0.0.0.0", 80);
 }
